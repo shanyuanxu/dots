@@ -1,0 +1,1 @@
+Data stored in SLC region are not very likely to be corrupted after a long-enough cold time(power off), for example, half an year.
