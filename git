@@ -1,0 +1,4 @@
+** Steps to change the line ending of a repo:
+  a. git config core.autocrlf
+  b. git rm --cached -r .
+  c. git reset --hard
