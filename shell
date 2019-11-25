@@ -1,0 +1,2 @@
+//This will find all the files in the given directory and replace the lines "include("path/to/file.php");" of each file to "require_once("path/to/file.php");".
+find /path/to/the/directory -type f -exec sed -i 's/include\(.*\)/require_once\1/' {} +
